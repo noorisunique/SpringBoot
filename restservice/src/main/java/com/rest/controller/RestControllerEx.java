@@ -1,12 +1,12 @@
-package com.first.controller;
+package com.rest.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class MyController {
+public class RestControllerEx {
 
-	@RequestMapping("/")
+	@RequestMapping("/rest")
 	public String get(){
 		System.out.println("llllllllllll");
 		return "Noor......";
